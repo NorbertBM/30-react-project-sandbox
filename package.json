@@ -2,16 +2,20 @@
   "name": "project-sandbox",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://NorbertBM.github.io",
   "dependencies": {
+    "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-animated-text-content": "^1.0.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-lazy-load-image-component": "^1.5.6",
     "react-scripts": "5.0.1",
+    "save-dev": "^0.0.1-security",
     "styled-components": "^5.3.6",
     "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
@@ -20,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
