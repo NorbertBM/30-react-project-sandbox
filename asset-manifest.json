@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/30-react-project-sandbox/static/css/main.2a6edaf6.css",
-    "main.js": "/30-react-project-sandbox/static/js/main.aa24aa9f.js",
+    "main.css": "/30-react-project-sandbox/static/css/main.80a39001.css",
+    "main.js": "/30-react-project-sandbox/static/js/main.f19f6baa.js",
     "index.html": "/30-react-project-sandbox/index.html",
-    "main.2a6edaf6.css.map": "/30-react-project-sandbox/static/css/main.2a6edaf6.css.map",
-    "main.aa24aa9f.js.map": "/30-react-project-sandbox/static/js/main.aa24aa9f.js.map"
+    "main.80a39001.css.map": "/30-react-project-sandbox/static/css/main.80a39001.css.map",
+    "main.f19f6baa.js.map": "/30-react-project-sandbox/static/js/main.f19f6baa.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a6edaf6.css",
-    "static/js/main.aa24aa9f.js"
+    "static/css/main.80a39001.css",
+    "static/js/main.f19f6baa.js"
   ]
 }
