@@ -1,0 +1,21 @@
+<svg width="64px" height="64px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="pinguin-a" d="M21,58 C40.44474,58 42,45.0162577 42,29 C42,12.9837423 32.5979797,0 21,0 C9.40202025,0 0,12.9837423 0,29 C0,45.0162577 1.55526,58 21,58 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(11 3)">
+      <mask id="pinguin-b" fill="#fff">
+        <use xlink:href="#pinguin-a"/>
+      </mask>
+      <use fill="#595959" xlink:href="#pinguin-a"/>
+      <ellipse cx="21" cy="58" fill="#ECECEC" mask="url(#pinguin-b)" rx="23" ry="37"/>
+    </g>
+    <circle cx="38" cy="18" r="7" fill="#FFF"/>
+    <circle cx="26" cy="18" r="7" fill="#FFF"/>
+    <circle cx="36" cy="18" r="2" fill="#595959"/>
+    <circle cx="28" cy="18" r="2" fill="#595959"/>
+    <polygon fill="#FFAF40" points="32 21 38 29 26 29" transform="matrix(1 0 0 -1 0 50)"/>
+    <polygon fill="#595959" points="13 27 13 36 1 36"/>
+    <polygon fill="#595959" points="63 27 63 36 51 36" transform="matrix(-1 0 0 1 114 0)"/>
+  </g>
+</svg>

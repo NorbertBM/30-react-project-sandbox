@@ -1,0 +1,14 @@
+.bounce {
+  animation: bounce 0.2s linear;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
