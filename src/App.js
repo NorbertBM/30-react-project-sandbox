@@ -1,10 +1,10 @@
 import "./App.css";
 // import ImagePost from "./projects/30-lazy-loading/ImagePost";
 // import SynthesizerApp from "./projects/29-speech-synthesizer/SynthesizerApp";
-// import AuthApp from "./projects/28-auth-app/AuthApp";
+import AuthApp from "./projects/28-auth-app/AuthApp";
 // import Store from "./projects/27-course-store/Store";
 // import MortgageCalcApp from "./projects/26-mortgage-calculator/MortgageCalcApp";
-import ExpensesCalcApp from "./projects/25-expenses-calcualtor/ExpensesCalcApp";
+// import ExpensesCalcApp from "./projects/25-expenses-calcualtor/ExpensesCalcApp";
 // import PhoneBookApp from "./projects/24-phone-book/PhoneBookApp";
 // import AnimatedLoginForm from "./projects/23-animated-login-form/AnimatedLoginForm";
 // import CardGameUI from "./projects/22-card-game-ui/CardGameUI";
@@ -58,10 +58,10 @@ function App() {
       {/* <CardGameUI /> */}
       {/* <AnimatedLoginForm /> */}
       {/* <PhoneBookApp /> */}
-      <ExpensesCalcApp />
+      {/* <ExpensesCalcApp /> */}
       {/* <MortgageCalcApp /> */}
       {/* <Store /> */}
-      {/* <AuthApp /> */}
+      <AuthApp />
       {/* <SynthesizerApp /> */}
       {/* <ImagePost /> */}
     </div>

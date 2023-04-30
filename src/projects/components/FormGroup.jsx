@@ -11,6 +11,7 @@ export default function FormGroup({
   className,
   readOnly = false,
   reference,
+  name,
 }) {
   return (
     <div className="form-group">
@@ -25,6 +26,7 @@ export default function FormGroup({
         className={className}
         readOnly={readOnly}
         ref={reference}
+        name={name}
       />
     </div>
   );

@@ -26,12 +26,17 @@ export default function AuthApp() {
     password: "",
   });
 
-  const handleChangeName = (e) => {
-    setUserAuth({ ...userAuth, name: e.target.value });
+  // const handleChangeName = (e) => {
+  //   setUserAuth({ ...userAuth, name: e.target.value });
+  // };
+  // const handleChangePassword = (e) => {
+  //   setUserAuth({ ...userAuth, password: e.target.value });
+  // };
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setUserAuth({ ...userAuth, [name]: value });
   };
-  const handleChangePassword = (e) => {
-    setUserAuth({ ...userAuth, password: e.target.value });
-  };
+  //   Authentication
 
   const [authStatus, setAuthStatus] = useState(null);
 
@@ -74,17 +79,20 @@ export default function AuthApp() {
             <FormGroup
               labelText={"User name"}
               inputType="text"
+              name="name"
               placeholder={"Enter your name"}
               reference={inputName}
               values={userAuth.name}
-              onChange={handleChangeName}
+              // onChange={handleChangeName}
+              onChange={handleInputChange}
             />{" "}
             <FormGroup
               labelText={"Password"}
               inputType="password"
               placeholder={"Enter your password"}
               values={userAuth.password}
-              onChange={handleChangePassword}
+              // onChange={handleChangePassword}
+              onChange={handleInputChange}
             />
           </Wrapper>
         )}
