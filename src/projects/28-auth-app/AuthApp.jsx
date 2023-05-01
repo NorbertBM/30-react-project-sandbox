@@ -89,6 +89,7 @@ export default function AuthApp() {
             <FormGroup
               labelText={"Password"}
               inputType="password"
+              name={"password"}
               placeholder={"Enter your password"}
               values={userAuth.password}
               // onChange={handleChangePassword}
